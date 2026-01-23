@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   description: "Role-Based Access Control Configuration Tool",
 };
 
+export const dynamic = 'force-dynamic';
+
 export default function RootLayout({
   children,
 }: {
