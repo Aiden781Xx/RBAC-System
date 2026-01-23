@@ -35,7 +35,7 @@ export class NaturalLanguageService {
         // Create permission if it doesn't exist
         permission = await PermissionService.create({
           name: permissionName,
-          description: null,
+          description: undefined,
         });
       }
 
@@ -73,7 +73,7 @@ export class NaturalLanguageService {
 
       const permission = await PermissionService.create({
         name: permissionName,
-        description: null,
+        description: undefined,
       });
 
       return {

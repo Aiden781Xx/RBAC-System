@@ -53,7 +53,7 @@ export class PermissionService {
     return prisma.permission.create({
       data: {
         name: data.name,
-        description: data.description || null,
+        description: data.description ?? null,
       },
     });
   }
