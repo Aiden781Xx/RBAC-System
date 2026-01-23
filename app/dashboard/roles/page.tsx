@@ -28,6 +28,8 @@ import { useToast } from '@/components/ui/use-toast';
 import { ArrowLeft, Plus, Edit, Trash2, Key } from 'lucide-react';
 import { getToken, getAuthHeaders } from '@/lib/auth-client';
 
+export const dynamic = 'force-dynamic';
+
 interface Role {
   id: string;
   name: string;

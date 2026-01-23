@@ -9,6 +9,8 @@ import { useToast } from '@/components/ui/use-toast';
 import { Shield, Users, Key, LogOut, Sparkles } from 'lucide-react';
 import { getToken, getAuthHeaders, removeToken } from '@/lib/auth-client';
 
+export const dynamic = 'force-dynamic';
+
 export default function DashboardPage() {
   const router = useRouter();
   const { toast } = useToast();

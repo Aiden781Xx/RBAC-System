@@ -10,6 +10,8 @@ import { useToast } from '@/components/ui/use-toast';
 import { ArrowLeft, Sparkles, Send } from 'lucide-react';
 import { getAuthHeaders } from '@/lib/auth-client';
 
+export const dynamic = 'force-dynamic';
+
 export default function NaturalLanguagePage() {
   const router = useRouter();
   const { toast } = useToast();

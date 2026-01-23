@@ -29,6 +29,8 @@ import { useToast } from '@/components/ui/use-toast';
 import { ArrowLeft, Plus, Edit, Trash2 } from 'lucide-react';
 import { getToken, getAuthHeaders } from '@/lib/auth-client';
 
+export const dynamic = 'force-dynamic';
+
 interface Permission {
   id: string;
   name: string;
