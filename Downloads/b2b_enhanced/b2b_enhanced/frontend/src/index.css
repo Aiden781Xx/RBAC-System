@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand — Purple */
+  --color-primary:        #8551dc;
+  --color-primary-hover:  #7c3aed;
+  --color-primary-soft:   #ede9fe;
+
+  /* Secondary — Sky Blue */
+  --color-secondary:      #0ea5e9;
+
+  /* Accent — Orange */
+  --color-accent:         #f97316;
+
+  /* Backgrounds */
+  --color-background:     #ffffff;
+  --color-surface:        #faf9ff;
+  --color-surface-2:      #f3f0ff;
+  --color-border:         #e5e0f7;
+
+  /* Text */
+  --color-text:           #1e1033;
+  --color-text-muted:     #6b6285;
+
+  /* Dark footer/sections */
+  --color-dark:           #1e1033;
+
+  /* Status */
+  --color-success:        #16a34a;
+  --color-success-soft:   #dcfce7;
+  --color-danger:         #dc2626;
+  --color-danger-soft:    #fef2f2;
+  --color-warning:        #d97706;
+  --color-warning-soft:   #fef3c7;
+  --color-info:           #2563eb;
+  --color-info-soft:      #eff6ff;
+}
+
+.dark {
+  --color-primary:       #8551dc;
+  --color-primary-hover:  #7c3aed;
+  --color-primary-soft:   #8b78e3;
+  --color-secondary:      #0ea5e9;
+
+  --color-accent:         #f97316;
+
+
+  --color-background:    #0f172a;
+  --color-surface:       #1e293b;
+  --color-surface-2:     #334155;
+  --color-border:        #475569;
+
+  --color-text:          #f8fafc;
+  --color-text-muted:    #94a3b8;
+
+  --color-success:       #22c55e;
+  --color-success-soft:  #14532d26;
+  --color-danger:        #f87171;
+  --color-danger-soft:   #2d151526;
+  --color-warning:       #fbbf24;
+  --color-warning-soft:  #2d1f0526;
+  --color-info:          #60a5fa;
+  --color-info-soft:     #1e3a5f26;
+}
